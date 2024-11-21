@@ -14,5 +14,6 @@ namespace rouge2024
         public int hpSteal;
         public int hpRecover;
         public int skillHaste;
+
     }
 }

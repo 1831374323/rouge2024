@@ -27,7 +27,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                Debug.Log("Skill 1 Activated");
+                player.DoSkill(player.skill1);
             }
         }
 
@@ -35,7 +35,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                Debug.Log("Skill 2 Activated");
+                player.DoSkill(player.skill2);
             }
         }
 
@@ -43,7 +43,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                Debug.Log("Skill 3 Activated");
+                player.DoSkill(player.skill3);
             }
         }
 
@@ -51,7 +51,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                Debug.Log("Skill 4 Activated");
+                player.DoSkill(player.skill4);
             }
         }
 
