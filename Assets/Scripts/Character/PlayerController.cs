@@ -27,7 +27,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                player.DoSkill(player.skill1);
+                SkillManager.Instance.DoSkill(0);
             }
         }
 
@@ -35,7 +35,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                player.DoSkill(player.skill2);
+                SkillManager.Instance.DoSkill(1);
             }
         }
 
@@ -43,7 +43,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                player.DoSkill(player.skill3);
+                SkillManager.Instance.DoSkill(2);
             }
         }
 
@@ -51,7 +51,7 @@ namespace rouge2024
         {
             if (context.performed)
             {
-                player.DoSkill(player.skill4);
+                SkillManager.Instance.DoSkill(3);
             }
         }
 

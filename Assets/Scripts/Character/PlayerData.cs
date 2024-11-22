@@ -8,12 +8,12 @@ namespace rouge2024
         public int hp;
         public int atk;
         public int atkRange;
-        public int atkSpeed;
+        public float atkSpeed;
         public int defense;
         public int speed;
-        public int hpSteal;
-        public int hpRecover;
-        public int skillHaste;
+        public float hpSteal;
+        public float hpRecover;
+        public float skillHaste;
 
     }
 }

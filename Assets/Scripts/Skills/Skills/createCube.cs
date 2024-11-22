@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 namespace rouge2024
 {
     [CreateAssetMenu(fileName = "createCube", menuName = "Custom/Skills/createCube")]
-    public class createCube : SkillBase
+    public class createCube : SkillData_Base
     {
         public float _coolDown = 10;
         public GameObject cube;
